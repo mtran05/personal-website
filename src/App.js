@@ -1,7 +1,11 @@
 import * as REACT from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.bundle.min";
-import './App.css';
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
+
+import './StyleSheets/universal.css';
+import './StyleSheets/mobile.css';
+import './StyleSheets/tablet.css';
+import './StyleSheets/desktop.css';
 
 import Header from './Components/Header';
 import Main from './Components/Main';
