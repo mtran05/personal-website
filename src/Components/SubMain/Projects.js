@@ -1,6 +1,6 @@
 function Projects() {
     return(
-        <p>yo2</p>
+        <p>Soon to be displayed here</p>
     );
 }
 

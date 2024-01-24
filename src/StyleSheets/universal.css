@@ -37,7 +37,7 @@ body {
 
 .nav-icon {
     justify-content: left;
-    height: 2.5rem;
+    max-height: 2.5rem;
     width: auto;
 }
 
@@ -47,11 +47,18 @@ nav li {
     font-family: "Quicksand";
 }
 
+#side-nav {
+    position: absolute;
+    align-self: center;
+    right: 2%;
+    font-size: 150%;
+}
+
 /*---------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 main {
     margin-top: 3.5rem;
-    height: var(--main-height);
+    min-height: var(--main-height);
     background: rgba(230,242,255,1);
     font-size: 1.2rem;
     font-family: "Quicksand";
@@ -62,35 +69,34 @@ main .col-4 {
     padding: 0;
 }
 
-main .card.rounded {
+#about, #main.card.rounded {
     --height: 56rem;
 
-    height: var(--height);
+    min-height: var(--height);
     border: 0.2rem solid black;
     margin: calc((var(--main-height) - var(--height))/2) 2rem;
     padding: 1rem;
 
     background-color: white;
     overflow: hidden;
+    justify-content: center;
 }
 
-main .card.rounded .card-img-top {
-    width: 22rem;
+#main.card.rounded .card-img-top {
+    max-width: 22rem;
     height: auto;
     align-self: center;
 }
 
 main .wrapper {
     display: grid;
-    align-items: center;
-    justify-items: center;
     padding: 0;
 }
 
 /*---------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 footer {
-    height: 7rem;
+    min-height: 7rem;
     background: rgb(0,0,0);
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(18,18,67,1) 50%, rgba(53,50,118,1) 80%);
 
@@ -101,6 +107,7 @@ footer {
 
     display: grid;
     align-items: center;
+    overflow: hidden;
 }
 
 footer .row {
@@ -116,7 +123,6 @@ footer ul {
     padding: 0;
     margin: 0;
     list-style-type: none;
-    overflow: hidden;
 }
 
 .nav i {

@@ -22,13 +22,15 @@ function Header() {
 
                         <img class="nav-item nav-icon" src={projectIcon}/>
                         <li class="nav-item">
-                            <Link to="/projects"><a class="nav-link" href="#"><strong>Projects</strong></a></Link>
+                            <Link to="/projects"><a class="nav-link"><strong>Projects</strong></a></Link>
                         </li>
 
                         <img class="nav-item nav-icon" src={schoolIcon}/>
                         <li class="nav-item">
-                            <Link to="/academic"><a class="nav-link" href="#"><strong>Academic Records</strong></a></Link>
+                            <Link to="/academic"><a class="nav-link"><strong>Academic Records</strong></a></Link>
                         </li>
+
+                        <a class="nav-link" href="#"><i id="side-nav" class="fa fa-bars"></i></a>
                     </ul>
                 </div>
             </nav>

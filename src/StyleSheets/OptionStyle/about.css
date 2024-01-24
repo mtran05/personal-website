@@ -1,0 +1,9 @@
+.wrapper .card.rounded {
+    width: 92.5%;
+    overflow: hidden;
+    justify-self: center;
+}
+
+hr {
+    border: 1pt solid black;
+}

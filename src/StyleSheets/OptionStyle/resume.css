@@ -3,4 +3,6 @@
     height: 94%;
     margin: 0;
     border: 2pt solid black;
+    align-self: center;
+    justify-self: center;
 }

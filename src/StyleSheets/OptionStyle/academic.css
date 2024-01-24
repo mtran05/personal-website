@@ -1,0 +1,45 @@
+#academic {
+    margin: 2rem;
+}
+
+#academic .collection {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 10rem);
+}
+
+#academic .card {
+    border: 0.15rem solid black;
+    padding: 4%;
+    height: 3rem;
+    overflow: initial;
+}
+
+#academic i.fa {
+    align-self: self-end;
+    display: inline;
+}
+
+.hidden {
+    display: none;
+}
+
+#academic a {
+    position: absolute;
+    right: 2%;
+    top: 10%;
+    color: black;
+    font-size: 1.5rem;
+    margin-right: 0.4rem;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#sat {
+    position: absolute;
+    border: 0.15rem solid black;
+    background: white;
+    top: 13%;
+    left: 30%;
+    padding: 0.2rem;
+    min-width: 14%;
+}
