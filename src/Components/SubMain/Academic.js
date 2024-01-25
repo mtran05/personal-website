@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import '../../StyleSheets/OptionStyle/academic.css';
 
 function Academic() {
