@@ -3,14 +3,14 @@ function Footer() {
         <footer>
             <div class='container-fluid'>
                 <div class="row">
-                    <div class="col-5">
+                    <div class="col-lg-5">
                         <p><strong>Contact information</strong></p>
                         <ul>
                             <li><i class="fa-solid fa-phone small"></i><span class="small"> (615) 484-2445</span></li>
                             <li><i class="fa-solid fa-envelope small"></i><span class="small"> tranquocthinh2912@gmail.com</span></li>
                         </ul>
                     </div>
-                    <div class="col-4">
+                    <div class="col-lg-4">
                         <p><strong>Social media</strong></p>
                         <ul class="nav">
                             <li><a href="https://discord.gg/asuka" target="_blank"><i class='fab fa-discord'></i></a></li>

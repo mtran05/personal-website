@@ -18,6 +18,10 @@ a:link, a:visited, a:hover, a:active {
     text-decoration: none;
 }
 
+.hidden {
+    display: none;
+}
+
 body {
 
 }
@@ -29,10 +33,11 @@ body {
     background: linear-gradient(90deg, rgba(246,255,255,1) 40%, rgba(232,255,254,1) 100%);
 }
 
-.navbar {
+header {
     height: 3.5rem;
     outline: 0.2rem solid black;
     overflow: hidden;
+    padding-left: 0.8rem;
 }
 
 .nav-icon {
@@ -41,17 +46,42 @@ body {
     width: auto;
 }
 
-nav li {
+nav.navbar-expand-md li {
     border-right: 1pt solid black;
     margin-right: 0.5rem;
     font-family: "Quicksand";
 }
 
-#side-nav {
+#side-nav-button {
     position: absolute;
     align-self: center;
-    right: 2%;
+    right: 3%;
     font-size: 150%;
+}
+
+#side-nav {
+    position: fixed;
+    height: 100vh;
+    width: 10rem;
+    top: 3.5rem;
+    right: -1%;
+    border: 0.15rem solid black;
+    padding: 0.5rem 1.5rem;
+    font-family: "Quicksand";
+
+    box-shadow: 0 0 2rem grey;
+    transition: right 1s ease-out;
+    background: rgb(188,255,234);
+    background: linear-gradient(133deg, rgba(188,255,234,1) 40%, rgba(127,255,221,1) 100%);
+}
+
+#side-nav.hiddenN {
+    right: -14rem;
+    transition: right 1s ease-out;
+}
+
+#side-nav li {
+    border-bottom: 1pt solid grey;
 }
 
 /*---------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -64,7 +94,7 @@ main {
     font-family: "Quicksand";
 }
 
-main .col-4 {
+main .divide {
     border-right: 1pt solid black;
     padding: 0;
 }
@@ -110,10 +140,6 @@ footer {
     overflow: hidden;
 }
 
-footer .row {
-    padding-left: 1rem;
-}
-
 footer p {
     padding: 0;
     margin: 0;
@@ -123,6 +149,10 @@ footer ul {
     padding: 0;
     margin: 0;
     list-style-type: none;
+}
+
+footer div.row div {
+    margin: 1rem;
 }
 
 .nav i {

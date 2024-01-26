@@ -1,0 +1,14 @@
+@media only screen and (max-width: 990px) { 
+    main .divide {
+        border-right: none;
+        border-bottom: 1pt solid black;
+        padding: 0;
+    }
+
+}
+
+@media only screen and (min-width: 766px) {
+    #side-nav {
+        display: none;
+    }
+}

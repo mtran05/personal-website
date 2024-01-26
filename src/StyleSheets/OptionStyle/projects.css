@@ -1,0 +1,34 @@
+#projects {
+    margin: 2rem;
+}
+
+#projects .card {
+    border: 0.15rem solid black;
+    margin-bottom: 2rem;
+    min-width: 18.5rem;
+    max-width: 28rem;
+}
+
+.fa-circle {
+    border: 0.15rem solid black;
+    font-size: 0.8rem;
+}
+
+#Desmosv2 .fa-circle {
+    color: red;
+}
+
+#Crypto .fa-circle {
+    color: yellow;
+}
+
+#MalphaX .fa-circle {
+    color: red;
+}
+
+#xyz {
+    height: 3rem;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}

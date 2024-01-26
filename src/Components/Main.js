@@ -12,7 +12,7 @@ function Main() {
         <main>
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-lg-4 divide">
                         <div id="main" class="card rounded">
                             <img class="card-img-top" src={defaultPFP}></img>
                             <div class="card-body">
@@ -40,7 +40,7 @@ function Main() {
                         </div>
                     </div>
                     
-                    <div class="col-8 wrapper">
+                    <div class="col-lg-8 wrapper">
                         <Routes>
                             <Route path="/" element={<About/>}></Route>
                             <Route path="/resume" element={<Resume/>}></Route>
