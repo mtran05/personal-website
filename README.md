@@ -1,3 +1,10 @@
+# Hello there         
+## Welcome to my personal website's source code. It's mainly made with React and Bootstrap5.
+
+## I also plan to update it more someday after I've done with other projects
+
+--------------------------------------------------------------------------------------------------------------------------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
