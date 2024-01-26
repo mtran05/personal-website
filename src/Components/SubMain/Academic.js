@@ -2,6 +2,13 @@ import { useEffect } from 'react';
 import '../../StyleSheets/OptionStyle/academic.css';
 
 function Academic() {
+
+    useEffect(() => {
+        if(document.querySelector("#academic").getBoundingClientRect().top > document.documentElement.clientHeight) {
+            document.querySelector("#academic").scrollIntoView(true);
+        }
+    });
+    
     return(
         <div id="academic">
             <div class="h4 fw-bold">Test Scores</div>

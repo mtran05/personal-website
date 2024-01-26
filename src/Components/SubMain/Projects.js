@@ -1,7 +1,15 @@
 import '../../StyleSheets/OptionStyle/projects.css';
 import xyz from '../../Images/xyz.png';
+import { useEffect } from 'react';
 
 function Projects() {
+
+    useEffect(() => {
+        if(document.querySelector("#projects").getBoundingClientRect().top > document.documentElement.clientHeight) {
+            document.querySelector("#projects").scrollIntoView(true);
+        }
+    });
+    
     return(
         <div id="projects">
             <div class="row">

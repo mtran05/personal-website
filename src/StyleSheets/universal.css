@@ -61,7 +61,7 @@ nav.navbar-expand-md li {
 
 #side-nav {
     position: fixed;
-    height: 100vh;
+    height: 20rem;
     width: 10rem;
     top: 3.5rem;
     right: -1%;

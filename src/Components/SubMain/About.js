@@ -1,6 +1,13 @@
+import { useEffect } from 'react';
 import '../../StyleSheets/OptionStyle/about.css';
 
 function About() {
+    useEffect(() => {
+        if(document.querySelector("#about").getBoundingClientRect().top > document.documentElement.clientHeight) {
+            document.querySelector("#about").scrollIntoView(true);
+        }
+    });
+
     return(
         <div id="about" class="card rounded">
             <div class="card-body">
