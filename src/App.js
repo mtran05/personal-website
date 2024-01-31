@@ -4,16 +4,17 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 import './StyleSheets/universal.css';
 import './StyleSheets/small.css';
+import './StyleSheets/animation.css';
 
 import Header from './Components/Header';
 import Main from './Components/Main';
 import Footer from './Components/Footer';
 
-function App() {
+export default function App() {
     const [photos, setPhotos] = REACT.useState([]);
 
     REACT.useEffect( () => {
-        console.log("hi");
+        
     });
     
     return (
@@ -25,4 +26,6 @@ function App() {
     );
 }
 
-export default App;
+export function toggle(element) {
+    document.querySelector(`${element}`).classList.toggle("hidden");
+}

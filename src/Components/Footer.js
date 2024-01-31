@@ -1,4 +1,19 @@
+import { useEffect } from "react";
+
 function Footer() {
+    
+    useEffect(() => {
+        setTimeout(() => {
+            document.querySelector("#load-status").classList.remove("load2");
+            document.querySelector("#load-status").classList.add("load3");
+
+            setTimeout(() => {
+                document.querySelector("#init-loading").classList.add("hidden");
+                document.querySelector("#root").classList.remove("hidden");
+            }, 1000/1.4);
+        }, 1000/1.4);
+    });
+
     return(
         <footer>
             <div class='container-fluid'>

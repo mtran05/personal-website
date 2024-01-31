@@ -3,10 +3,19 @@ import HTMLicon from '../Images/html-icon.png';
 import projectIcon from '../Images/project-icon.png';
 import resumeIcon from '../Images/resume-icon.png';
 import schoolIcon from '../Images/school-icon.png';
+import { useEffect } from 'react';
 
-function Header() {
+export default function Header() {
+
+    useEffect(() => {
+        setTimeout(() => {
+            document.querySelector("#load-status").classList.remove("load0");
+            document.querySelector("#load-status").classList.add("load1");
+        }, 0);
+    });
+
     return (
-        <header class="fixed-top  bg-custom">
+        <header class="fixed-top bg-custom">
             <nav class="navbar navbar-expand-md navbar-light">
                 <ul class="navbar-nav collapse navbar-collapse">
                     <img class="nav-item nav-icon" src={HTMLicon}/>
@@ -49,5 +58,3 @@ function Header() {
         </header>
     );
 }
-
-export default Header;

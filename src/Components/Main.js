@@ -6,8 +6,17 @@ import About from './SubMain/About.js'
 import Academic from './SubMain/Academic.js';
 import Resume from './SubMain/Resume.js';
 import Projects from './SubMain/Projects.js';
+import { useEffect } from 'react';
 
 function Main() {
+
+    useEffect(() => {
+        setTimeout(() => {
+            document.querySelector("#load-status").classList.remove("load1");
+            document.querySelector("#load-status").classList.add("load2");
+        }, 1000/2);
+    });
+
     return(
         <main>
             <div class="container-fluid">

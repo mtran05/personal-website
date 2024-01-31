@@ -1,7 +1,8 @@
 import { useEffect } from 'react';
+import { toggle } from './../../App.js';
 import '../../StyleSheets/OptionStyle/academic.css';
 
-function Academic() {
+export default function Academic() {
 
     useEffect(() => {
         if(document.querySelector("#academic").getBoundingClientRect().top > document.documentElement.clientHeight) {
@@ -28,8 +29,4 @@ function Academic() {
     );
 }
 
-function toggle(element) {
-    document.querySelector(`${element}`).classList.toggle("hidden");
-}
 
-export default Academic;    
