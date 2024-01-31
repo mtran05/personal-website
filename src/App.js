@@ -4,7 +4,6 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 import './StyleSheets/universal.css';
 import './StyleSheets/small.css';
-import './StyleSheets/animation.css';
 
 import Header from './Components/Header';
 import Main from './Components/Main';
