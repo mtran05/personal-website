@@ -35,7 +35,7 @@ function About() {
                     <strong>Future position pathway:</strong> Full-stack Developer<br/><br/>
                     
                     <strong>Actively looking for job/internship:</strong> Yes<br/>
-                    <strong>Job location prference:</strong> Remote<br/>
+                    <strong>Job location preference:</strong> Remote<br/>
                     <strong>Practical experience:</strong> None, and I am currently looking for some<br/>
                     <strong>Compensation expectation:</strong> At least minimum wage if possible<br/>
                 </div>
