@@ -6,12 +6,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 
-document.addEventListener("DOMContentLoaded", (event) => {
-    var content = document.createElement("div");
-    content.setAttribute("id", "root");
-    content.setAttribute("class", "hidden");
-    document.querySelector("body").appendChild(content);
-
+start().then(() => {
     const root = ReactDOM.createRoot(document.getElementById('root'));
     root.render(
         <React.StrictMode>
@@ -21,6 +16,16 @@ document.addEventListener("DOMContentLoaded", (event) => {
         </React.StrictMode>
     );
 });
+
+async function start() {
+    var text = document.createTextNode("Welcome to Mason's Website");
+    document.querySelector("#greetings strong").appendChild(text);
+
+    var content = document.createElement("div");
+    content.setAttribute("id", "root");
+    content.setAttribute("class", "hidden");
+    document.querySelector("body").appendChild(content);
+}
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
