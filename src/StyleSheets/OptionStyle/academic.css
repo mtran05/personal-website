@@ -4,21 +4,26 @@
 
 #academic .collection {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 10rem);
+    grid-template-columns: repeat(auto-fill, 10.5rem);
+    margin-bottom: 10%;
+    margin-top: 1rem;
 }
 
 #academic .card {
     border: 0.15rem solid black;
-    padding: 4%;
     height: 3rem;
     overflow: initial;
+    display: grid;
+    padding-right: 5%;
+    margin-bottom: 1rem;
 }
 
 #academic .card-text {
     text-align: end;
+    align-self: center;
 }
 
-#academic a {
+.card>a {
     position: absolute;
     left: 5%;
     top: 10%;
@@ -27,14 +32,44 @@
     margin-right: 0.4rem;
 }
 
+#transcript::after {
+    content: " (Bachelor)";
+    font-size: 1rem;
+}
+
 /*---------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 #sat {
-    position: absolute;
     border: 0.15rem solid black;
     background: white;
-    top: -60%;
-    left: 30%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 99;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 2rem grey;
     padding: 0.2rem;
     min-width: 10rem;
+}
+
+#academic .content {
+    border: 0.15rem solid black;
+    background: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 9999;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 2rem grey;
+    padding: 0.6rem;
+    overflow-y: auto;
+    max-height: 96vh;
+}
+
+.content a {
+    font-size: 1.5rem;
+    color: black;
+    position: absolute;
+    top: 0.4rem;
+    right: 1rem;
 }
