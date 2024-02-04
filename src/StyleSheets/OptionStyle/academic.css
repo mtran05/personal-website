@@ -54,7 +54,7 @@
     overflow-x: hidden;
     min-width: 10rem;
     width: 50rem;
-    max-height: 96vh;
+    max-height: 86vh;
 }
 
 #sat img {
@@ -75,9 +75,9 @@
     box-shadow: 0 0 2rem grey;
     padding: 0.6rem;
     overflow-y: auto;
-    width: 52%;
-    max-height: 96vh;
-    max-width: 1331px;
+    overflow-x: auto;
+    width: 45rem;
+    max-height: 86vh;
     min-width: 5rem;
     min-height: 5rem;
 }
@@ -91,9 +91,8 @@
 }
 
 .content img {
-    position: absolute;
-    top: 1rem;
-    left: 14rem;
+    float: right;
+    margin-right: 2.5rem;
     height: 5rem;
     width: auto;
 }

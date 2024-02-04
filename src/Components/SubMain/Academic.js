@@ -187,7 +187,7 @@ export async function getData(target, element, logo=null) {
         document.querySelector(`${element}`).appendChild(document.createTextNode(`GPA: ${data.term_gpa}`));
 
         let table = document.createElement("table");
-        table.setAttribute("class", "table table-hover mt-2 table-responsive");
+        table.setAttribute("class", "table table-hover mt-2 table-responsive-xl");
         let thead = document.createElement("thead");
         let tbody = document.createElement("tbody");
         tbody.setAttribute("class", "table-group-divider");
