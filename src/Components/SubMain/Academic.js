@@ -56,77 +56,77 @@ export default function Academic() {
             <div id="transcript"><span class="h4 fw-bold text-decoration-underline">Transcript</span></div>
             <div class="collection">
                 <div class="card rounded">
-                    <a href="#" onClick={e => e.preventDefault()} onFocus={() => {getData("fall 2023", "#fa23", emu); toggle("#fa23")}}><i class="fa fa-caret-square-o-right"></i></a>
+                    <a href="#" onClick={e => e.preventDefault()} onFocus={async () => {await getData("fall 2023", "#fa23", emu); toggle("#fa23")}}><i class="fa fa-caret-square-o-right"></i></a>
                     <span class="card-text fw-bold">Fall 2023</span>
                     <div id="fa23" class="hidden rounded content">
                     </div>
                 </div>
 
                 <div class="card rounded">
-                    <a href="#" onClick={e => e.preventDefault()} onFocus={() => {getData("winter 2024", "#wi24", emu); toggle("#wi24")}}><i class="fa fa-caret-square-o-right"></i></a>
+                    <a href="#" onClick={e => e.preventDefault()} onFocus={async () => {await getData("winter 2024", "#wi24", emu); toggle("#wi24")}}><i class="fa fa-caret-square-o-right"></i></a>
                     <span class="card-text fw-bold">Winter 2024</span>
                     <div id="wi24" class="hidden rounded content">
                     </div>
                 </div>
 
                 <div class="card rounded">
-                    <a href="#" onClick={e => e.preventDefault()} onFocus={() => {getData("Summer 2024", "#su24", emu); toggle("#su24")}}><i class="fa fa-caret-square-o-right"></i></a>
+                    <a href="#" onClick={e => e.preventDefault()} onFocus={async () => {await getData("Summer 2024", "#su24", emu); toggle("#su24")}}><i class="fa fa-caret-square-o-right"></i></a>
                     <span class="card-text fw-bold">Summer 2024</span>
                     <div id="su24" class="hidden rounded content">
                     </div>
                 </div>
 
                 <div class="card rounded">
-                    <a href="#" onClick={e => e.preventDefault()} onFocus={() => {getData("fall 2024", "#fa24", emu); toggle("#fa24")}}><i class="fa fa-caret-square-o-right"></i></a>
+                    <a href="#" onClick={e => e.preventDefault()} onFocus={async () => {await getData("fall 2024", "#fa24", emu); toggle("#fa24")}}><i class="fa fa-caret-square-o-right"></i></a>
                     <span class="card-text fw-bold">Fall 2024</span>
                     <div id="fa24" class="hidden rounded content">
                     </div>
                 </div>
 
                 <div class="card rounded">
-                    <a href="#" onClick={e => e.preventDefault()} onFocus={() => {getData("winter 2025", "#wi25", emu); toggle("#wi25")}}><i class="fa fa-caret-square-o-right"></i></a>
+                    <a href="#" onClick={e => e.preventDefault()} onFocus={async () => {await getData("winter 2025", "#wi25", emu); toggle("#wi25")}}><i class="fa fa-caret-square-o-right"></i></a>
                     <span class="card-text fw-bold">Winter 2025</span>
                     <div id="wi25" class="hidden rounded content">
                     </div>
                 </div>
 
                 <div class="card rounded">
-                    <a href="#" onClick={e => e.preventDefault()} onFocus={() => {getData("Summer 2025", "#su25", emu); toggle("#su25")}}><i class="fa fa-caret-square-o-right"></i></a>
+                    <a href="#" onClick={e => e.preventDefault()} onFocus={async () => {await getData("Summer 2025", "#su25", emu); toggle("#su25")}}><i class="fa fa-caret-square-o-right"></i></a>
                     <span class="card-text fw-bold">Summer 2025</span>
                     <div id="su25" class="hidden rounded content">
                     </div>
                 </div>
 
                 <div class="card rounded">
-                    <a href="#" onClick={e => e.preventDefault()} onFocus={() => {getData("fall 2025", "#fa25", emu); toggle("#fa25")}}><i class="fa fa-caret-square-o-right"></i></a>
+                    <a href="#" onClick={e => e.preventDefault()} onFocus={async () => {await getData("fall 2025", "#fa25", emu); toggle("#fa25")}}><i class="fa fa-caret-square-o-right"></i></a>
                     <span class="card-text fw-bold">Fall 2025</span>
                     <div id="fa25" class="hidden rounded content">
                     </div>
                 </div>
 
                 <div class="card rounded">
-                    <a href="#" onClick={e => e.preventDefault()} onFocus={() => {getData("winter 2026", "#wi26", emu); toggle("#wi26")}}><i class="fa fa-caret-square-o-right"></i></a>
+                    <a href="#" onClick={e => e.preventDefault()} onFocus={async () => {await getData("winter 2026", "#wi26", emu); toggle("#wi26")}}><i class="fa fa-caret-square-o-right"></i></a>
                     <span class="card-text fw-bold">Winter 2026</span>
                     <div id="wi26" class="hidden rounded content">
                     </div>
                 </div>
 
                 <div class="card rounded">
-                    <a href="#" onClick={e => e.preventDefault()} onFocus={() => {getData("Summer 2026", "#su26", emu); toggle("#su26")}}><i class="fa fa-caret-square-o-right"></i></a>
+                    <a href="#" onClick={e => e.preventDefault()} onFocus={async () => {await getData("Summer 2026", "#su26", emu); toggle("#su26")}}><i class="fa fa-caret-square-o-right"></i></a>
                     <span class="card-text fw-bold">Summer 2026</span>
                     <div id="su26" class="hidden rounded content">
                     </div>
                 </div>
 
                 <div class="card rounded">
-                    <a href="#" onClick={e => e.preventDefault()} onFocus={() => {getData("fall 2026", "#fa26", emu); toggle("#fa26")}}><i class="fa fa-caret-square-o-right"></i></a>
+                    <a href="#" onClick={e => e.preventDefault()} onFocus={async () => {await getData("fall 2026", "#fa26", emu); toggle("#fa26")}}><i class="fa fa-caret-square-o-right"></i></a>
                     <span class="card-text fw-bold">Fall 2026</span>
                     <div id="fa26" class="hidden rounded content">
                     </div>
                 </div>
 
                 <div class="card rounded">
-                    <a href="#" onClick={e => e.preventDefault()} onFocus={() => {getData("winter 2027", "#wi27", emu); toggle("#wi27")}}><i class="fa fa-caret-square-o-right"></i></a>
+                    <a href="#" onClick={e => e.preventDefault()} onFocus={async () => {await getData("winter 2027", "#wi27", emu); toggle("#wi27")}}><i class="fa fa-caret-square-o-right"></i></a>
                     <span class="card-text fw-bold">Winter 2027</span>
                     <div id="wi27" class="hidden rounded content">
                     </div>
@@ -140,25 +140,14 @@ export default function Academic() {
 
 export async function getData(target, element, logo=null) {
     if(!document.querySelector(`${element}`).innerHTML) {
-        let loading = document.createElement("div");
-        loading.setAttribute("class", "loader");
-        let inner1 = document.createElement("div");
-        inner1.setAttribute("class", "inner one");
-        loading.appendChild(inner1);
-        let inner2 = document.createElement("div");
-        inner2.setAttribute("class", "inner two");
-        loading.appendChild(inner2);
-        let inner3 = document.createElement("div");
-        inner3.setAttribute("class", "inner three");
-        loading.appendChild(inner3);
-        document.querySelector(`${element}`).appendChild(loading);
+        toggle(".default-loading");
 
         let data;
         try {
             data = (await (await fetch(`https://p-website-backend-2bab0b8dbecb.herokuapp.com/academic/${target}`)).json())[0];
         } catch (error) {
             alert("Failed to get data");
-            loading.setAttribute("class", "hidden");
+            toggle(".default-loading");
             toggle(`${element}`);
         }
         //console.log(data);
@@ -239,6 +228,6 @@ export async function getData(target, element, logo=null) {
         }
         table.appendChild(tbody);
         document.querySelector(`${element}`).appendChild(table);
-        loading.setAttribute("class", "hidden");
+        toggle(".default-loading");
     }
 }
