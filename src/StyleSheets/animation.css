@@ -78,7 +78,7 @@
 .loader {
     --size: calc(192px);
     --component-size: calc(6pt);
-    --component-color: #ffcccc;
+    --component-color: #c8cfff;
     position: fixed;
     z-index: 9999;
     top: calc(50% - var(--size)/2);
