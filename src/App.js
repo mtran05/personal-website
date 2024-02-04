@@ -25,6 +25,6 @@ export default function App() {
     );
 }
 
-export function toggle(element) {
-    document.querySelector(`${element}`).classList.toggle("hidden");
+export function toggle(element, Class="hidden") {
+    document.querySelector(`${element}`).classList.toggle(`${Class}`);
 }

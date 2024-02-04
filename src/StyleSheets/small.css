@@ -5,6 +5,19 @@
         padding: 0;
     }
 
+    #sat.rounded {
+        width: 100%;
+        max-width: 95vw;
+    }
+
+    #sat .bar {
+        --bar-width: 100%;
+    }
+
+    #academic .content.rounded {
+        width: auto;
+        max-width: 95vw;
+    }
 }
 
 @media only screen and (min-width: 766px) {
