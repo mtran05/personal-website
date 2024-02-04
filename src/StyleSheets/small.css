@@ -1,4 +1,8 @@
 @media only screen and (max-width: 990px) { 
+    :root {
+        font-size: 1.2rem;
+    }
+
     main .divide {
         border-right: none;
         border-bottom: 1pt solid black;
@@ -18,10 +22,6 @@
 @media only screen and (max-width: 560px) {
     :root {
         font-size: 1rem;
-    }
-
-    #academic table.table {
-        font-size: 80%;
     }
 }
 
